@@ -1,0 +1,16 @@
+{
+  "name": "mult-assets-rsbuild-repro",
+  "version": "0.0.1",
+  "description": "Really Fast Charts",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build:wasm": "wasm-pack build packages/wasm",
+    "client:dev": "cd packages/client && npm run dev"
+  },
+  "author": "Broch Stilley <broch@fastcharts.co>",
+  "license": "UNLICENSED",
+  "devDependencies": {},
+  "dependencies": {}
+}

@@ -1,0 +1,8 @@
+{
+  "name": "wasm",
+  "version": "0.0.1",
+  "files": [
+    "pkg"
+  ],
+  "main": "pkg/wasm.js"
+}
